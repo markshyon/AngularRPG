@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularRPG';
+
+  fakeBoolean: boolean = true;
+
+  arrayOfThings: string[] = [
+    "String 1",
+    "String 2",
+    "String 3"
+  ];
+
+  onClick(sentence: string) {
+    console.log(`You clicked this: ${sentence}`);
+  }
 }
